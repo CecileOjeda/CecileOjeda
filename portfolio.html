@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Cece's Elagent Website</title>
+    <style type="text/css">
+        body {
+            background-image: url("https://images.saatchiart.com/saatchi/1331473/art/7713019/6781161-AFZTRROF-7.jpg");
+            background-color: #6e346f;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-family: arial;
+        }
+
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgb(247, 177, 228);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            color: rgba(95, 43, 90, 0.959);
+            flex: 1;
+            margin: 0;
+        }
+
+        #nav-ul {
+            list-style-image: none;
+        }
+
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        .nav-a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        /* main container area beneath menu */
+        main {
+            color: rgb(0, 0, 0);
+            display: flex;
+        }
+
+        /* portfolio styles */
+        .content {
+            color: rgb(255, 248, 248);
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: rgb(183, 35, 146);
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: rgb(251, 177, 238);
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all-contents">
+        <nav>
+            <h1>Cece's Elagent Website</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a class="nav-a" href="index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="content">
+                <h1>Portfolio</h1>
+                <ul id="portfolio">  
+                    <li>
+                        <a href="projects/platformer/">
+                            Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects/bouncing-box/">
+                            Bouncing Box : A project that gives you a taste of game development on
+                            the web </a></li>
+                    <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity
+                            applied to circle shapes...</a></li>
+                </ul </div>
+        </main>
+    </div>
+</body>
+
+</html>
+
