@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(251, 200, 106);
+}
+
+ 
+h1 {
+    text-align: center;
+            }
+h3 {
+    text-align: right;
+    border-style: solid;
+    border-color: rgb(117, 28, 28);
+   
+}
