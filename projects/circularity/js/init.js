@@ -87,7 +87,7 @@ var init = function (window) {
             var leftEdge = circle.x -circle.radius;
             var rightEdge = circle.x + circle.radius;
             var topEdge = circle.y -circle.radius;
-            var bottomEdge = circle.y -circle.radius;
+            var bottomEdge = circle.y + circle.radius;
 
             if (leftEdge > canvas.width) {
                 circle.x = -circle.radius;
