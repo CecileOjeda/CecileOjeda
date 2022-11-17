@@ -72,6 +72,7 @@ var init = function (window) {
             
             // TODO 9 : Iterate over the array
         }
+    }
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
@@ -83,10 +84,10 @@ var init = function (window) {
             
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            var leftEdge = circle.x -circle.radius
-            var rightEdge = circle.x + circle.radius
-            var topEdge = circle.x -circle.radius
-            var bottomEdge = circle.x -circle.radius
+            var leftEdge = circle.x -circle.radius;
+            var rightEdge = circle.x + circle.radius;
+            var topEdge = circle.y -circle.radius;
+            var bottomEdge = circle.y -circle.radius;
 
             if (leftEdge > canvas.width) {
                 circle.x = -circle.radius;
@@ -95,10 +96,10 @@ var init = function (window) {
             circle.x = canvas.width + circle.radius;
            }
           if(topEdge > canvas.height){
-            circle.x = -circle.radius;
+            circle.y = -circle.radius;
           }
           if(bottomEdge < 0) {
-            circle.x = canvas.height + circle.radius;
+            circle.y = canvas.height + circle.radius;
           }
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
