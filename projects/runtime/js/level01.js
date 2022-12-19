@@ -27,10 +27,19 @@ var level01 = function (window) {
 
         // TODO 6 and on go here
         // BEGIN EDITING YOUR CODE HERE
-
-        
-        
-        
+{
+    function createSawBlade (x,y) {
+            var average = (x + y) / 2;
+            console.log("the average of " + x + " and " + y + " is " + average);
+    sawBladeHitZone.x = 500;
+    sawBladeHitZone.y = 300;
+    game.addGameItem(sawBladeHitZone);
+    }
+  {  var obstacleImage = draw.bitmap("img/sawblade.png");
+    obstacleImage.x = -25;
+    obstacleImage.y = -25;
+    sawBladeHitZone.addChild(obstacleImage);
+    }
         // DO NOT EDIT CODE BELOW HERE
     }
 };
